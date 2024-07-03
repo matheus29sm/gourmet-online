@@ -1,0 +1,20 @@
+@import '../../components/vars.css';
+
+.footer{
+    background-color: black;
+    font-style: normal; /*descer a depender das partições*/
+    display: flex;
+
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer{
+    color: var(--text-sub);
+}
+
+.footer p{
+    color: var(--text-light);
+}

@@ -1,0 +1,50 @@
+@import '../../vars.css';
+
+.alertaImageContainer {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.alertaImage {
+    width: 100%;
+    height: auto;
+}
+
+.adressContent{
+    width: 100%;
+    height: 320px;
+    background-color: var(--bg-carousel);
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adressTitle {
+  text-align: center;
+  color: var(--text-light);
+  margin-right: 50px;
+}
+
+.adressTitle span {
+  display: block;
+  font-size: 2em;
+}
+
+.adressText {
+    color: var(--text-light);
+    text-align: left;
+    margin: 20px 0;
+    margin-left: 50px;
+}
+  
+.adressText h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+  
+.adressText p {
+    margin: 5px 0;
+    margin-left: 20px;
+}

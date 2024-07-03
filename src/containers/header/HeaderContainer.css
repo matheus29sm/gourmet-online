@@ -1,0 +1,7 @@
+@import '../../components/vars.css';
+
+.headerContainer{
+    max-width: var(--global-width);
+    margin: 0 auto;
+    padding: 0 var(--global-padding);
+}

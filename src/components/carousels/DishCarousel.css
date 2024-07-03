@@ -1,0 +1,33 @@
+@import '../vars.css';
+
+.carouselDishesContent {
+    height: 400px;
+    background: var(--bg-carousel);
+    margin: '0 5px',
+  }
+  
+.carouselDishesImage {
+    width: 98%;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 4px;
+}
+
+.buttonDishesContainer {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.navButtonDishes {
+    margin-right: 8px;
+    font-size: 50px;
+    color: var(--text-light);
+    border: none;
+    background-color: transparent;
+    outline: none;
+    transition: color 0.4s ease; 
+}
+
+.navButtonDishes:hover {
+  color: var(--h-gray); 
+}

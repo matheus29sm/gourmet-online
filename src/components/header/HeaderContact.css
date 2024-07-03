@@ -1,0 +1,74 @@
+@import '../vars.css';
+
+.headerContact {
+    background-color: var(--bg-header);
+    border-radius: 0 0 8px 8px;
+}
+
+.headerContact a{
+    text-decoration: none;
+}
+
+.headerContactContent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerContactContent .textContact {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 15px;
+    margin-left: 10px;
+    color: var(--text-gold);
+}
+
+.headerContactContent .contactImgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background-color: var(--bg-header);
+
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background-color: var(--bg-header);
+}
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background-color: var(--bg-header);
+    /* color: var(--text-gold); */
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    background-color: var(--bg-header);
+}
+
